@@ -36,7 +36,7 @@
   
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'system-ui';
     margin: 0;
 }
 
@@ -51,6 +51,7 @@ h1 {
     letter-spacing: -.2px; /*Espacio entre cada letra*/
     color: white;
     margin: 0;
+    max-width: 500px;
     /*text-transform: uppercase; /*Manipular para que se convierte en mayus, capitaliza, etc*/
     /*text-decoration: dashed; /*Decorar el texto*/
 }
@@ -62,7 +63,7 @@ h1 strong {
 h2 {
     color: #026fff;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'system-ui';
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
